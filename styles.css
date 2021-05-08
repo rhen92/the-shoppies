@@ -1,3 +1,7 @@
+* {
+  font-family: "Open Sans";
+}
+
 body {
 background-color: #F4F6F8
 }
@@ -14,16 +18,51 @@ background-color: #F4F6F8
   position: relative;
 }
 
-.fa-search {
+.search-icon {
   color: #8A949E;
   font-size: 20px;
   position: absolute;
   top: 42px;
-  padding: 5px;
+  padding: 8px;
   margin-left: 10px;
 }
 
 .search-bar {
   height: 25px;
   margin: 5px;
+  padding-left: 40px;
+}
+
+.movie-container {
+  display: flex;
+  align-items: center;
+}
+
+.nominate-button,
+.remove-button {
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.search-container {
+  display: flex;
+  margin-left:150px;
+}
+
+.movie-area {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.search-form {
+  padding: 10px;
+  background-color: #FFFFFF;
+  width: 45%;
+}
+
+.nomination-area {
+  padding: 10px;
+  background-color: #FFFFFF;
+  width: 45%;
 }
