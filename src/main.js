@@ -7,7 +7,7 @@ const nominees = document.querySelector('#nominees');
 const movieArea = document.querySelector('#movieArea');
 let movieData = [];
 
-const movieGET = (movie) => fetch(`http://www.omdbapi.com/?apikey=d09e9ca9&t=${movie}`)
+const movieGET = (movie) => fetch(`https://www.omdbapi.com/?apikey=d09e9ca9&t=${movie}`)
   .then(response => response.json())
   .then(data => movieData.push(data))
   .then(data => checkValidMovies())
