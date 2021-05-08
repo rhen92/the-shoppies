@@ -18,7 +18,8 @@ Application that allows a user to search for movies and nominate them for an awa
 
 ![Showcase](https://media.giphy.com/media/07KfSgkKjW4y3FmIK8/giphy.gif)
 
-#### Unable to set-up deploy link due to fetch call occurring on an unsecure network  
+## Deploy link
+https://rhen92.github.io/the-shoppies/
 
 ## Future Additions
 - Add the ability to remove a movie from nomination list
