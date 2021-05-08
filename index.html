@@ -3,19 +3,28 @@
   <head>
     <meta charset="utf-8">
     <title>The Shoppies</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles.css">
-    <script src="https://kit.fontawesome.com/29bccbf253.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <h1>The Shoppies</h1>
     <div class="search-container">
       <label>Movie title</label>
-      <i class="fas fa-search"></i>
-      <input class="search-bar"></input>
+      <img id="searchIcon" class="search-icon" src="./search.svg" alt="magnifying glass">
+      <input id="searchBar" class="search-bar" type=text></input>
     </div>
-    <form>
-    </form>
-    <section>
-    </section>
+    <div id="movieArea" class="movie-area">
+      <form class="search-form">
+        <h2 id="searchHeader"></h2>
+        <section id="searchResults">
+        </section>
+      </form>
+      <form class="nomination-area">
+        <h2 id="nominations"></h2>
+        <section id="nominees">
+        </section>
+      </form>
+    </div>
+    <script src="./src/main.js"></script>
   </body>
 </html>
