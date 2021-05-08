@@ -9,7 +9,7 @@
 - `CSS`
 
 ## Overview
-Timeboxed 3 hours to complete an application to search for movies and nominate them for an award
+Application that allows a user to search for movies and nominate them for an award. Timeboxed to 3 hours.
 
 ## Set-up
 1. Clone this repo
